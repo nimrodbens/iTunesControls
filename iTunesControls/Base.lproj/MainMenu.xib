@@ -10,20 +10,18 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="iTunesControls" customModuleProvider="target">
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="iTunesControls" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="NWs-0X-taR" customClass="MainController" customModule="iTunesControls" customModuleProvider="target">
             <connections>
-                <outlet property="statusMenu" destination="Vmn-yG-0Aj" id="hz3-GA-Iiq"/>
+                <outlet property="statusMenu" destination="Vmn-yG-0Aj" id="fnc-pE-sdM"/>
             </connections>
         </customObject>
-        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="Vmn-yG-0Aj">
             <items>
                 <menuItem title="Quit" id="oqi-E7-hsR" userLabel="Quit">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <connections>
-                        <action selector="handleQuit:" target="Voe-Tx-rLC" id="VDU-nw-vrL"/>
-                    </connections>
                 </menuItem>
             </items>
         </menu>

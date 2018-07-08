@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A1AD1C6420F1F63800CB6439 /* iTunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AD1C6320F1F63800CB6439 /* iTunes.swift */; };
 		A1AD1C6620F1F69C00CB6439 /* iTunesScripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AD1C6520F1F69C00CB6439 /* iTunesScripting.swift */; };
+		A1C02EF620F2985600366FC8 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C02EF520F2985600366FC8 /* MainController.swift */; };
+		A1C02EF820F2991800366FC8 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C02EF720F2991800366FC8 /* Extenstions.swift */; };
 		A1C7954820F1A4DF0042FA2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7954720F1A4DF0042FA2C /* AppDelegate.swift */; };
 		A1C7954A20F1A4DF0042FA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C7954920F1A4DF0042FA2C /* Assets.xcassets */; };
 		A1C7954D20F1A4DF0042FA2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1C7954B20F1A4DF0042FA2C /* MainMenu.xib */; };
@@ -17,6 +19,8 @@
 /* Begin PBXFileReference section */
 		A1AD1C6320F1F63800CB6439 /* iTunes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunes.swift; sourceTree = "<group>"; };
 		A1AD1C6520F1F69C00CB6439 /* iTunesScripting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesScripting.swift; sourceTree = "<group>"; };
+		A1C02EF520F2985600366FC8 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		A1C02EF720F2991800366FC8 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
 		A1C7954420F1A4DF0042FA2C /* iTunesControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C7954720F1A4DF0042FA2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C7954920F1A4DF0042FA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,9 +71,11 @@
 				A1C7954720F1A4DF0042FA2C /* AppDelegate.swift */,
 				A1C7954920F1A4DF0042FA2C /* Assets.xcassets */,
 				A1C7954B20F1A4DF0042FA2C /* MainMenu.xib */,
+				A1C02EF520F2985600366FC8 /* MainController.swift */,
 				A1C7954E20F1A4DF0042FA2C /* Info.plist */,
 				A1C7954F20F1A4DF0042FA2C /* iTunesControls.entitlements */,
 				A1AD1C6720F203ED00CB6439 /* ITunes */,
+				A1C02EF720F2991800366FC8 /* Extenstions.swift */,
 			);
 			path = iTunesControls;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C02EF620F2985600366FC8 /* MainController.swift in Sources */,
+				A1C02EF820F2991800366FC8 /* Extenstions.swift in Sources */,
 				A1AD1C6620F1F69C00CB6439 /* iTunesScripting.swift in Sources */,
 				A1C7954820F1A4DF0042FA2C /* AppDelegate.swift in Sources */,
 				A1AD1C6420F1F63800CB6439 /* iTunes.swift in Sources */,
