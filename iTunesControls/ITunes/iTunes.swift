@@ -26,6 +26,7 @@ import ScriptingBridge
 
 // MARK: iTunesEPlS
 @objc public enum iTunesEPlS : AEKeyword {
+    case none = 0x00000000 /* 'kPSS' */
     case stopped = 0x6b505353 /* 'kPSS' */
     case playing = 0x6b505350 /* 'kPSP' */
     case paused = 0x6b505370 /* 'kPSp' */
